@@ -1293,56 +1293,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 325136462}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &282223370
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 282223372}
-  - component: {fileID: 282223371}
-  m_Layer: 0
-  m_Name: johnpork
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &282223371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 282223370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c10d134b36e70047807cfd787359925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RandomMemePopup
-  memeImage: {fileID: 2119984681}
-  promptText: {fileID: 2047206300}
-  audioSource: {fileID: 229633650}
-  minTime: 40
-  maxTime: 60
-  allowedLetters: 5a0058004300560042004e004d00
---- !u!4 &282223372
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 282223370}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.51281, y: 1.88524, z: -6.05001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &287372518
 GameObject:
   m_ObjectHideFlags: 0
@@ -9824,7 +9774,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'G - Enable godmode
 
-    H - Infinite ammo'
+    H - Infinite ammo
+
+    1-7 - Spawn enemies'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9890,7 +9842,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 50.408413, y: -29.312675, z: -290.02377, w: -22.137241}
+  m_margin: {x: 50.408413, y: -29.312675, z: -305.02267, w: -75.6666}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -14799,5 +14751,4 @@ SceneRoots:
   - {fileID: 1940463535546888422}
   - {fileID: 1456130551775764631}
   - {fileID: 4847795766791448173}
-  - {fileID: 282223372}
   - {fileID: 1540916499}

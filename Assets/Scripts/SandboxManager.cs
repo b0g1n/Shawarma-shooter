@@ -31,11 +31,10 @@ public class SandboxSpawner : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha4)) SpawnEnemy(3);
         if (Input.GetKeyDown(KeyCode.Alpha5)) SpawnEnemy(4);
         if (Input.GetKeyDown(KeyCode.Alpha6)) SpawnEnemy(5);
-
+        if (Input.GetKeyDown(KeyCode.Alpha7)) SpawnEnemy(6);
         // ---- Cheats ----
         if (Input.GetKeyDown(KeyCode.G)) ToggleGodMode();
         if (Input.GetKeyDown(KeyCode.H)) ToggleInfiniteAmmo();
-        if (Input.GetKeyDown(KeyCode.J)) ToggleInfiniteMoney();
     }
 
     void SpawnEnemy(int index)
@@ -65,13 +64,5 @@ public class SandboxSpawner : MonoBehaviour
 
         if (playerWeapon != null)
             playerWeapon.infiniteAmmo = infiniteAmmo;
-    }
-
-    void ToggleInfiniteMoney()
-    {
-        infiniteMoney = !infiniteMoney;
-
-        if (gameManager != null && infiniteMoney)
-            gameManager.playerCash = 999999;
     }
 }
