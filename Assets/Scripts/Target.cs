@@ -71,6 +71,7 @@ public class Target : MonoBehaviour
     if (healthText != null)
         Destroy(healthText.gameObject);
 
+    if(GameManager.instance !=null)
     GameManager.instance.EnemyKilled(cashReward);
     Destroy(gameObject);
     }

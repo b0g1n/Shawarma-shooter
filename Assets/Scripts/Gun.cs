@@ -15,7 +15,7 @@ public class Gun : MonoBehaviour
     public float reloadTime = 2f;
     private int currentAmmo;
     private bool isReloading = false;
-
+    public bool infiniteAmmo;
     [Header("UI")]
     public TMP_Text ammoText;
     public TMP_Text reloadText;
@@ -90,6 +90,7 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
+        if(!infiniteAmmo)
         currentAmmo--;
         UpdateUI();
 

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
-    public bool godMode = false;
+    public bool invincible = false;
     private int _currentHealth;
     public int currentHealth
     {
@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (godMode) return;
+        if (invincible) return;
         currentHealth -= damage;  // UI updates automatically
         StartCoroutine(FlashRed());
     }
