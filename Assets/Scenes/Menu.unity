@@ -476,8 +476,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 0.8377492, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.10975086, g: 0.6037736, b: 0, a: 1}
-    m_PressedColor: {r: 0.29395446, g: 0.49056602, b: 0.0023139962, a: 1}
+    m_HighlightedColor: {r: 0.6039216, g: 0.53360754, b: 0, a: 1}
+    m_PressedColor: {r: 0.49019608, g: 0.3580413, b: 0.003921577, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -946,7 +946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21173b65cb4dac4d81b5dd11fd6359a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelUnlocker
-  levelNumber: 5
+  levelNumber: 4
 --- !u!114 &456998506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -969,8 +969,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 0.8377492, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.10975086, g: 0.6037736, b: 0, a: 1}
-    m_PressedColor: {r: 0.29395446, g: 0.49056602, b: 0.0023139962, a: 1}
+    m_HighlightedColor: {r: 0.5849056, g: 0.5299964, b: 0.024830889, a: 1}
+    m_PressedColor: {r: 0.745283, g: 0.34784448, b: 0, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
