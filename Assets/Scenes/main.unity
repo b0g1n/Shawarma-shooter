@@ -1608,6 +1608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 100
+  invincible: 0
   healthText: {fileID: 1483515079}
 --- !u!82 &229633650
 AudioSource:
@@ -2672,7 +2673,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43e0d2c656b5f9941bf85c7ce0890396, type: 2}
+  - {fileID: 2100000, guid: d4ef51f2a095ac04fb4dc3c92e81cd40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5557,7 +5558,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43e0d2c656b5f9941bf85c7ce0890396, type: 2}
+  - {fileID: 2100000, guid: d4ef51f2a095ac04fb4dc3c92e81cd40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6046,7 +6047,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43e0d2c656b5f9941bf85c7ce0890396, type: 2}
+  - {fileID: 2100000, guid: d4ef51f2a095ac04fb4dc3c92e81cd40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15465,7 +15466,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43e0d2c656b5f9941bf85c7ce0890396, type: 2}
+  - {fileID: 2100000, guid: d4ef51f2a095ac04fb4dc3c92e81cd40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16094,7 +16095,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 43e0d2c656b5f9941bf85c7ce0890396, type: 2}
+  - {fileID: 2100000, guid: d4ef51f2a095ac04fb4dc3c92e81cd40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22214,6 +22215,7 @@ MonoBehaviour:
   fireRate: 3
   magazineSize: 15
   reloadTime: 1.8
+  infiniteAmmo: 0
   ammoText: {fileID: 1154500148}
   reloadText: {fileID: 64430280}
   fpsCam: {fileID: 330585545}
