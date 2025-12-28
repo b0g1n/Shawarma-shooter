@@ -17,14 +17,14 @@ More mechanics include :
 - Random skill-check popup; you have to press a random unused key from the bottom row to close it.
 
 Controls :
--WASD – Move
--Mouse – Look
--Shift (hold) - Sprint
--E – Interact
--Q - Start the next wave
--R - Reload
--Left mouse - Attack
--ESC - Pause menu
+- WASD – Move
+- Mouse – Look
+- Shift (hold) - Sprint
+- E – Interact
+- Q - Start the next wave
+- R - Reload
+- Left mouse - Attack
+- ESC - Pause menu
 
 Running the Game from Source Code :
 - Clone or download the project source code with git clone.
