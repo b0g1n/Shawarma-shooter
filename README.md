@@ -1,33 +1,63 @@
-Welcome to Shawarma Shooter!🥙🥙
+# Shawarma Shooter 🥙🥙
 
-This is a wave-based fps shooter in which you fight enemies and upgrade your stats!
+**Shawarma Shooter** is a wave-based FPS shooter where you fight enemies and upgrade your stats!  
 
-The project is built in Unity, for the coding I used Visual Studio.
-The game features three levels , each playing with a different gun.
-The game also features a sandbox mode and a bonus "ending" level.
-The upgrades depend on the weapon specific for the level.
-More mechanics include :
+The game is built in **Unity**, with coding done in **Visual Studio**.
+
+---
+
+## Features
+
+- Three levels, each with a different weapon
+- Sandbox mode
+- Bonus "ending" level
+- Weapon-specific upgrades
 - HP system
-- Bossfight at round 10
+- Boss fight at round 10
 - Increasing wave difficulty
 - Money system
-- Medkit dropping from enemies on defeat
+- Medkits dropping from defeated enemies
 - Death screen
 - Win message
-- Random skill-check popup; you have to press a random unused key from the bottom row to close it.
+- Random skill-check popup: press a random unused key from the bottom row to close it
 
-Controls :
-- WASD – Move
-- Mouse – Look
-- Shift (hold) - Sprint
-- E – Interact
-- Q - Start the next wave
-- R - Reload
-- Left mouse - Attack
-- ESC - Pause menu
+---
 
-Running the Game from Source Code :
-- Clone or download the project source code with git clone.
-- Extract the project folder if needed.
-- Open the project in Unity.
-- Run the game directly from the editor.
+## Controls
+
+| Action                 | Key                  |
+|------------------------|--------------------|
+| Move                   | WASD               |
+| Look                   | Mouse              |
+| Sprint (hold)          | Shift              |
+| Interact               | E                  |
+| Start next wave        | Q                  |
+| Reload                 | R                  |
+| Attack                 | Left Mouse Button  |
+| Pause menu             | ESC                |
+
+---
+
+## Running the Game from Source Code
+
+1. Clone or download the project:  
+   ```bash
+   git clone https://github.com/b0g1n/Shawarma-shooter
+   ```
+2. Open the project in Unity.
+3. Run the game directly from the Unity Editor.
+
+## Running the Game from the published version
+Follow the steps on https://b0g1nro.itch.io/shawarma-shooter
+
+## Credits
+Apps and tools used : Unity, VS code, Github, Itch.io, poly.pizza
+
+## Screenshots
+
+![Third level enemies](Screenshots/ss1.png)
+![Main menu](Screenshots/ss2.png)
+![Second level shop](Screenshots/ss3.png)
+
+## Gameplay footage
+https://www.youtube.com/watch?v=yRuBSwQ_bUY
